@@ -1,0 +1,39 @@
+*{
+    background-color: darkgray;
+}
+.header {
+    padding: 20px;
+  text-align: center;
+  /* border: 2px rgb(52, 10, 119); */
+}
+.center {
+    text-align: center;
+    border: 2px rgb(52, 10, 119);
+}
+.glow {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(245, 107, 107), 0 0 20px rgb(248, 6, 6), 0 0 30px rgb(248, 6, 6), 0 0 40px rgb(248, 6, 6), 0 0 50px  rgb(248, 6, 6), 0 0 60px rgb(248, 6, 6), 0 0 70px  rgb(248, 6, 6);
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #d0ff00, 0 0 40px #d0ff00, 0 0 50px #d0ff00, 0 0 60px  #d0ff00, 0 0 70px #d0ff00, 0 0 80px #d0ff00;
+    }
+  }
+.legitPostingHere{
+    margin-left: 430px;
+}
+.frontSizeforms{
+    font-size: 25px;
+}
+.formFrontsAndSize{
+    font-size: 28;
+    
+    margin-left: 200px;
+}
